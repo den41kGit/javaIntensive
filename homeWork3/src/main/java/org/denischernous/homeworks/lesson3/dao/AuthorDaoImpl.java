@@ -2,7 +2,6 @@ package org.denischernous.homeworks.lesson3.dao;
 
 import org.denischernous.homeworks.lesson3.config.DbConnector;
 import org.denischernous.homeworks.lesson3.model.Author;
-import org.denischernous.homeworks.lesson3.model.Book;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -102,3 +101,4 @@ public class AuthorDaoImpl implements AuthorDao{
         return id;
     }
 }
+
